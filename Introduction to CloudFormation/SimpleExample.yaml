@@ -1,0 +1,10 @@
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: 't2.micro'
+      ImageId: 'ami-00890f614e48ce866'    
+      KeyName: 'corighose-key-pair'
+      Tags:
+        -  Key: 'Name'
+           Value: 'Sample Instance'

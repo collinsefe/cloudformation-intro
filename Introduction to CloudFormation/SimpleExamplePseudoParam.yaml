@@ -1,0 +1,30 @@
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: 't2.micro'
+        ImageId:
+        Fn::FindInMap:
+        - RegionMap
+        - !Ref AWS::Region
+        - AMI 
+      KeyName: 'corighose-key-pair'
+      Tags:
+        -  Key: 'Name'
+           Value: !Join 
+             - " "
+             - - 'EC2 for account'
+               -  !Ref AWS::AccountId 
+               - 'in'
+               - !Ref AWS::Region
+      SecurityGroups:
+         -  !Ref MySecurityGroup
+  MySecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Enable SSH access via port 22
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: 22
+        ToPort: 22
+        CidrIp: 0.0.0.0/0
