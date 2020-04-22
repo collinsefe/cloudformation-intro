@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-# A Cloud Guru: Introduction to CloudFormation
-## By Abhaya Chauhan
-
-An Introduction to CloudFormation taking students through constructing templates to build a solid understanding of how CloudFormation works.
- 
-Developed by Abhaya Chauhan
-
-Source code & Lesson files for the A Cloud Guru, Introduction to CloudFormation course.
-
-Please note, this is provided as-is, neither I, nor A Cloud Guru support this code. If you do identify any errors, then please identify and we will attempt to fix on a best efforts basis.
-
 ## Lessons
 
 There are four sections, each with multiple hands on labs.
@@ -29,10 +17,4 @@ There is a folder for each section.
 This file was created for the purposes of the Introduction to CloudFormation course from [aCloud.Guru](https://acloud.guru)
 
 ## IMPORTANT
-These files are distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
-
-## Change Log 
-May 2018 initial preparation
-=======
-# cloudformation-intro
->>>>>>> 9cf00d339a8b7490f896f07bafd9e45e1fedea19
+These files are distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND
