@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A Cloud Guru: Introduction to CloudFormation
 ## By Abhaya Chauhan
 
@@ -32,3 +33,6 @@ These files are distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS 
 
 ## Change Log 
 May 2018 initial preparation
+=======
+# cloudformation-intro
+>>>>>>> 9cf00d339a8b7490f896f07bafd9e45e1fedea19
